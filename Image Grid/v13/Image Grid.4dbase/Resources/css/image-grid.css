@@ -1,0 +1,36 @@
+body{
+		margin: 0;
+}
+
+.gridrow{
+		background-color: #FFFFFF;
+		overflow-x: hidden;
+		overflow-y: hidden;
+		width: 100%;
+}
+.thumb{
+		margin: 10px 10px 5px 10px;
+		box-shadow: 2px 2px 4px #777777;
+		max-width: 100px;
+		max-height: 100px;
+}
+
+.thumb:hover {
+		box-shadow: 2px 2px 6px #5555FF;
+}
+
+.thumb:active {
+		box-shadow: 2px 2px 6px #FF5555;
+}
+
+.highlighted{
+		box-shadow: 2px 2px 6px #5555FF;
+}
+
+.selected{
+		box-shadow: 2px 2px 6px #FF5555;		
+}
+
+.selected:hover {
+		box-shadow: 2px 2px 6px #FF5555;
+}
